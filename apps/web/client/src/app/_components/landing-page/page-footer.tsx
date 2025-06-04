@@ -57,9 +57,11 @@ export function Footer() {
                         <a href="/sitemap.xml" className="hover:underline">Sitemap</a>
                     </div>
                     {/* Right: Copyright */}
-                    <div className="text-foreground-tertiary text-small w-full md:w-auto flex justify-center md:justify-end">© {new Date().getFullYear()} On Off, Inc.</div>
+                    <div className="text-foreground-tertiary text-small w-full md:w-auto flex justify-center md:justify-end">
+                        © {new Date().getFullYear()} On Off, Inc. – Managed by Codex AI agent
+                    </div>
                 </div>
             </div>
         </footer>
     );
-} 
+}
